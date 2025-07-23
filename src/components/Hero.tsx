@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-dresses.jpg";
+import heroImage from "@/assets/hero-mens.jpg";
 
 const Hero = () => {
   return (
@@ -16,14 +16,14 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4">
         <div className="max-w-2xl">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in">
-            Discover Your
-            <span className="block bg-gradient-to-r from-primary to-pink-400 bg-clip-text text-transparent">
-              Perfect Dress
+            Elevate Your
+            <span className="block bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent">
+              Style Game
             </span>
           </h1>
           <p className="text-xl text-white/90 mb-8 animate-slide-up">
-            Explore our curated collection of stunning dresses for every occasion. 
-            From casual day wear to elegant evening gowns.
+            Discover premium men's fashion that defines modern elegance. 
+            From sharp suits to casual essentials - find your perfect look.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-slide-up">
             <Button variant="hero" size="lg" className="text-lg">

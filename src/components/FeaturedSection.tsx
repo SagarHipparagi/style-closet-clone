@@ -5,9 +5,9 @@ const FeaturedSection = () => {
   const featuredProducts = [
     {
       id: 1,
-      name: "Elegant Floral Midi Dress",
-      price: 2999,
-      originalPrice: 4999,
+      name: "Premium Cotton Casual Shirt",
+      price: 1999,
+      originalPrice: 2999,
       rating: 4.8,
       reviews: 127,
       image: "/placeholder.svg?height=400&width=300",
@@ -15,9 +15,9 @@ const FeaturedSection = () => {
     },
     {
       id: 2,
-      name: "Classic Black Evening Gown",
-      price: 5999,
-      originalPrice: 8999,
+      name: "Classic Navy Business Suit",
+      price: 8999,
+      originalPrice: 12999,
       rating: 4.9,
       reviews: 89,
       image: "/placeholder.svg?height=400&width=300",
@@ -25,9 +25,9 @@ const FeaturedSection = () => {
     },
     {
       id: 3,
-      name: "Bohemian Summer Dress",
-      price: 1999,
-      originalPrice: 3499,
+      name: "Slim Fit Formal Blazer",
+      price: 4999,
+      originalPrice: 7999,
       rating: 4.7,
       reviews: 156,
       image: "/placeholder.svg?height=400&width=300",

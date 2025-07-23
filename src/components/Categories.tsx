@@ -1,34 +1,34 @@
 import CategoryCard from "./CategoryCard";
-import casualDress from "@/assets/casual-dress.jpg";
-import formalDress from "@/assets/formal-dress.jpg";
-import partyDress from "@/assets/party-dress.jpg";
-import ethnicDress from "@/assets/ethnic-dress.jpg";
+import casualMens from "@/assets/casual-mens.jpg";
+import formalMens from "@/assets/formal-mens.jpg";
+import partyMens from "@/assets/party-mens.jpg";
+import ethnicMens from "@/assets/ethnic-mens.jpg";
 
 const Categories = () => {
   const categories = [
     {
-      title: "Casual Dresses",
-      description: "Comfortable and stylish for everyday wear",
-      image: casualDress,
-      itemCount: 145,
+      title: "Casual Wear",
+      description: "Comfortable and stylish for everyday occasions",
+      image: casualMens,
+      itemCount: 245,
     },
     {
-      title: "Formal Dresses",
-      description: "Elegant pieces for professional settings",
-      image: formalDress,
-      itemCount: 89,
+      title: "Formal Suits",
+      description: "Sharp business attire for professionals",
+      image: formalMens,
+      itemCount: 127,
     },
     {
-      title: "Party Dresses",
-      description: "Glamorous outfits for special occasions",
-      image: partyDress,
-      itemCount: 124,
+      title: "Party Wear",
+      description: "Stylish outfits for special occasions",
+      image: partyMens,
+      itemCount: 98,
     },
     {
-      title: "Ethnic Dresses",
-      description: "Traditional designs with modern cuts",
-      image: ethnicDress,
-      itemCount: 97,
+      title: "Ethnic Wear",
+      description: "Traditional designs with contemporary appeal",
+      image: ethnicMens,
+      itemCount: 156,
     },
   ];
 
@@ -40,7 +40,7 @@ const Categories = () => {
             Shop by <span className="bg-gradient-hero bg-clip-text text-transparent">Category</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Find the perfect dress for any occasion in our carefully curated collections
+            Find the perfect outfit for any occasion in our carefully curated men's collections
           </p>
         </div>
         

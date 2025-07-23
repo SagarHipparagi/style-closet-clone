@@ -10,7 +10,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <h1 className="text-2xl font-bold bg-gradient-hero bg-clip-text text-transparent">
-              DressHub
+              StyleHub
             </h1>
           </div>
 
@@ -29,7 +29,7 @@ const Header = () => {
               Ethnic
             </a>
             <a href="#" className="text-sm font-medium hover:text-primary transition-colors">
-              Western
+              Accessories
             </a>
           </nav>
 
@@ -38,7 +38,7 @@ const Header = () => {
             <div className="relative w-full">
               <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
               <Input
-                placeholder="Search for dresses..."
+                placeholder="Search for men's clothing..."
                 className="pl-10 bg-muted/50 border-0 focus-visible:ring-1"
               />
             </div>

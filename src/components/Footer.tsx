@@ -7,12 +7,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold bg-gradient-to-r from-primary to-pink-400 bg-clip-text text-transparent">
-              DressHub
+            <h3 className="text-2xl font-bold bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent">
+              StyleHub
             </h3>
             <p className="text-background/80 text-sm leading-relaxed">
-              Your ultimate destination for stylish dresses. We curate the finest collection 
-              to make every woman feel confident and beautiful.
+              Your ultimate destination for premium men's fashion. We curate the finest collection 
+              to help every man dress with confidence and style.
             </p>
             <div className="flex space-x-4">
               <Instagram className="h-5 w-5 text-background/60 hover:text-primary cursor-pointer transition-colors" />
@@ -26,11 +26,11 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-semibold text-lg">Shop</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="text-background/80 hover:text-background transition-colors">Casual Dresses</a></li>
-              <li><a href="#" className="text-background/80 hover:text-background transition-colors">Formal Dresses</a></li>
-              <li><a href="#" className="text-background/80 hover:text-background transition-colors">Party Dresses</a></li>
-              <li><a href="#" className="text-background/80 hover:text-background transition-colors">Ethnic Dresses</a></li>
-              <li><a href="#" className="text-background/80 hover:text-background transition-colors">Western Dresses</a></li>
+              <li><a href="#" className="text-background/80 hover:text-background transition-colors">Casual Wear</a></li>
+              <li><a href="#" className="text-background/80 hover:text-background transition-colors">Formal Suits</a></li>
+              <li><a href="#" className="text-background/80 hover:text-background transition-colors">Party Wear</a></li>
+              <li><a href="#" className="text-background/80 hover:text-background transition-colors">Ethnic Wear</a></li>
+              <li><a href="#" className="text-background/80 hover:text-background transition-colors">Accessories</a></li>
             </ul>
           </div>
 
@@ -63,7 +63,7 @@ const Footer = () => {
         <div className="border-t border-background/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-background/60 text-sm">
-              © 2024 DressHub. All rights reserved.
+              © 2024 StyleHub. All rights reserved.
             </p>
             <p className="text-background/60 text-sm mt-4 md:mt-0">
               Made with ❤️ for fashion lovers
